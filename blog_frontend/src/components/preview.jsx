@@ -1,8 +1,8 @@
 
-const preview = () => {
+const Preview = () => {
   return (
     <div>preview</div>
   )
 }
 
-export default preview
+export default Preview
