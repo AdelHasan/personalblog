@@ -3,7 +3,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import { Route, Routes } from "react-router-dom";
 import Navigation from "./components/Nav";
 import Sidebar from "./components/Sidebar";
-import Post from "./components/Post";
+import Preview from "./components/Preview";
 import Footer from "./components/Footer";
 
 
@@ -16,9 +16,9 @@ function App() {
       <Container className="main">
         <Row>
           <Col lg={9}>
-            <Row><Post /></Row>
-            <Row><Post /></Row>
-            <Row><Post /></Row>
+            <Row><Preview /></Row>
+            <Row><Preview /></Row>
+            <Row><Preview /></Row>
           </Col>
           <Col lg={3}><Sidebar/></Col>
         </Row>

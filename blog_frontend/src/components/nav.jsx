@@ -9,13 +9,13 @@ const Navigation = () => {
           <Navbar.Brand>Adel Hasan</Navbar.Brand>
           <Nav className="me-auto">
             <Link to="/" className="head-link">
-              <Nav.Link  href="#" >Home</Nav.Link>
+              <Nav.Link  href="/" >Home</Nav.Link>
             </Link>
             <Link to="/archive" className="head-link">
-              <Nav.Link href="#">Archive</Nav.Link>
+              <Nav.Link href="/archive">Archive</Nav.Link>
             </Link>
             <Link to="/about" className="head-link">
-              <Nav.Link href="#">About Me</Nav.Link>
+              <Nav.Link href="/about">About Me</Nav.Link>
             </Link>
           </Nav>
         </Container>

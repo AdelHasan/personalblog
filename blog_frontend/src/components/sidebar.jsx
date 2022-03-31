@@ -5,7 +5,7 @@ import { Row, Col, Card } from "react-bootstrap";
 const Sidebar = () => {
   return (
     <div className="about">
-      <Card id="profileContainer">
+      
         <Row>
           <Col lg className="d-flex justify-content-center">
             <Card
@@ -20,6 +20,15 @@ const Sidebar = () => {
                   Full Stack Developer
                 </Card.Title>
                 <Card.Text>Houston, Texas, US</Card.Text>
+                
+                <p>
+                  Graduate of General Assembly's Software Engineering Immersive
+                  Cohort, where I learned full-stack web development through
+                  applied projects. I am located in Houston, Texas, and actively
+                  seeking opportunities to join a development team and put the
+                  skills and technologies I learned at General Assembly to work.
+                </p>
+                <Card.Footer>
                 <Card.Link href="#">
                   <a href="https://github.com/adelhasan" target="_blank">
                     <i
@@ -47,15 +56,25 @@ const Sidebar = () => {
                     ></i>
                   </a>
                 </Card.Link>
+                </Card.Footer>
+                {/* <h3>Languages, Libraries and Frameworks</h3> */}
+                {/* <p>
+                  <ul>
+                    <li>Javascript, ReactJS, NodeJS</li>
+                    <li>ExpressJS, MongooseJS, MongoDB</li>
+                    <li>Python, Django, PostresQL</li>
+                  </ul>
+                </p> */}
               </Card.Body>
             </Card>
           </Col>
           <Col lg text-center id="summary">
-            <h3>Current Role</h3>
-            <p>
-              Graduate of General Assembly's Software Engineering Immersive Cohort, where I learned full-stack web development through applied projects.
-
-              I am located in Houston, Texas, and actively seeking opportunities to join a development team and put the skills and technologies I learned at General Assembly to work.
+            {/* <p>
+              Graduate of General Assembly's Software Engineering Immersive
+              Cohort, where I learned full-stack web development through applied
+              projects. I am located in Houston, Texas, and actively seeking
+              opportunities to join a development team and put the skills and
+              technologies I learned at General Assembly to work.
             </p>
             <h3>Languages, Libraries and Frameworks</h3>
             <p>
@@ -64,16 +83,16 @@ const Sidebar = () => {
                 <li>ExpressJS, MongooseJS, MongoDB</li>
                 <li>Python, Django, PostresQL</li>
               </ul>
-            </p>
-            <h3>Aspirations</h3>
+            </p> */}
+            {/* <h3>Aspirations</h3>
             <p>
               After building my foundational knowledge of full-stack web development, I am eager to apply these skills at an enterprise level as part of a diverse team of talented developers. I consider myself a lifelong learner and I look forward to continuing this learning as part of a great development team.
-            </p>
+            </p> */}
           </Col>
         </Row>
-      </Card>
+      
     </div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
