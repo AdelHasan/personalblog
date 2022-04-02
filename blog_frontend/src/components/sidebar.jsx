@@ -1,5 +1,5 @@
 // I M P O R T S
-import { Row, Col, Card } from "react-bootstrap";
+import { Row, Col, Card, ListGroup } from "react-bootstrap";
 
 // E X P O R T S
 const Sidebar = () => {
@@ -7,13 +7,13 @@ const Sidebar = () => {
     <div className="about">
       
         <Row>
-          <Col lg className="d-flex justify-content-center">
+          <Col lg className="d-flex justify-content-center profileBox">
             <Card
               style={{ width: "18rem" }}
               className="text-center d-flex justify-content-center"
               id="profileCard"
             >
-              <Card.Header>About Me</Card.Header>
+              <Card.Header>Adel Hasan</Card.Header>
               <Card.Img variant="top" src="https://i.imgur.com/XLHoJFp.jpg" />
               <Card.Body>
                 <Card.Title className="mb-2 text-muted">
@@ -21,14 +21,13 @@ const Sidebar = () => {
                 </Card.Title>
                 <Card.Text>Houston, Texas, US</Card.Text>
                 
-                <p>
+                {/* <p id="aboutText">
                   Graduate of General Assembly's Software Engineering Immersive
                   Cohort, where I learned full-stack web development through
-                  applied projects. I am located in Houston, Texas, and actively
-                  seeking opportunities to join a development team and put the
-                  skills and technologies I learned at General Assembly to work.
-                </p>
-                <Card.Footer>
+                  applied projects.
+                </p> */}
+                <ListGroup variant="flush">
+                  <ListGroup.Item>
                 <Card.Link href="#">
                   <a href="https://github.com/adelhasan" target="_blank">
                     <i
@@ -56,7 +55,8 @@ const Sidebar = () => {
                     ></i>
                   </a>
                 </Card.Link>
-                </Card.Footer>
+                </ListGroup.Item>
+                </ListGroup>
                 {/* <h3>Languages, Libraries and Frameworks</h3> */}
                 {/* <p>
                   <ul>

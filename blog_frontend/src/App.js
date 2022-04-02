@@ -2,28 +2,26 @@
 import { Container, Col, Row } from "react-bootstrap";
 import { Route, Routes } from "react-router-dom";
 import Navigation from "./components/Nav";
+import Home from "./components/Home";
+import Post from "./components/Post";
 import Sidebar from "./components/Sidebar";
 import Preview from "./components/Preview";
 import Footer from "./components/Footer";
 
-
-
-
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <Container className="main">
-        <Row>
-          <Col lg={9}>
-            <Row><Preview /></Row>
-            <Row><Preview /></Row>
-            <Row><Preview /></Row>
-          </Col>
-          <Col lg={3}><Sidebar/></Col>
-        </Row>
-      </Container>
+      <div id="contentBox">
+        <Navigation />
+        <Container fluid="md" className="main">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/apost" element={<Post />} />
+          </Routes>
+        </Container>
+      
       <Footer />
+      </div>
     </div>
   );
 }

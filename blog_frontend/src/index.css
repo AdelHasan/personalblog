@@ -5,25 +5,87 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
-code {
+.code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=EB+Garamond&family=Playfair+Display&family=Quicksand&display=swap');
+
+* {
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+#quote {
+  font-family: 'Beau Rivage', cursive;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#contentBox {
+  background: linear-gradient(to right, #dad299, #b0dab9); 
+}
+
+.about {
+  position: fixed;
+  
+}
+
+
+
+@media screen and (max-width: 980px) {
+  .about {
+    /* display: none; */
+    position: relative;
+    margin-bottom: 12px; 
+  }
+
+  /* #aboutGH, #aboutLI, #aboutMail {
+    display: none;
+  } */
+  
+}
+
+
 
 .head-link {
   text-decoration: none;
 }
 
-.card-header {
+.postPreview .card-header {
   font-size: 2em;
+  text-align: start;
+  background-color: white;
+}
+
+div.card-header {
+  background-color: white;
 }
 
 .postPreview {
   margin-bottom: 12px;
 }
 
+.excerpt {
+  font-family: 'Playfair', 'sans-serif';
+  text-align: start;
+}
+
 .profileContainer {
   padding: 5%;
+}
+
+#aboutText {
+  text-align: left;
+}
+
+.fa-brands, .fa-solid  {
+  color: black;
+}
+
+.fIcon {
+  color: white;
 }

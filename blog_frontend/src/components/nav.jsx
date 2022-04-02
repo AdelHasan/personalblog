@@ -6,17 +6,17 @@ const Navigation = () => {
     <>
       <Navbar sticky="top" bg="dark" variant="dark" id="navbar">
         <Container>
-          <Navbar.Brand>Adel Hasan</Navbar.Brand>
+          <Navbar.Brand>Planet Express</Navbar.Brand>
           <Nav className="me-auto">
             <Link to="/" className="head-link">
               <Nav.Link  href="/" >Home</Nav.Link>
             </Link>
             <Link to="/archive" className="head-link">
-              <Nav.Link href="/archive">Archive</Nav.Link>
+              <Nav.Link href="/archive">Articles</Nav.Link>
             </Link>
-            <Link to="/about" className="head-link">
-              <Nav.Link href="/about">About Me</Nav.Link>
-            </Link>
+            {/* <Link to="/about" className="head-link">
+              <Nav.Link href="/contact">About</Nav.Link>
+            </Link> */}
           </Nav>
         </Container>
       </Navbar>
