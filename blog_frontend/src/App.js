@@ -7,20 +7,23 @@ import Post from "./components/Post";
 import Sidebar from "./components/Sidebar";
 import Preview from "./components/Preview";
 import Footer from "./components/Footer";
-
+import Hero from "./components/Hero";
 function App() {
   return (
     <div className="App">
       <div id="contentBox">
         <Navigation />
+        
+
         <Container fluid="md" className="main">
+        {/* <Hero/> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/apost" element={<Post />} />
           </Routes>
         </Container>
-      
-      <Footer />
+
+        <Footer />
       </div>
     </div>
   );

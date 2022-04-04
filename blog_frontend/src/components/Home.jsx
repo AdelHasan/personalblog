@@ -8,8 +8,7 @@ const Home = () => {
       
         
           <h2 id="quote">
-            Not tricks, Michael, illusions. Say goodbye to these, because it's
-            the last time!
+            Welcome to my blog! I am Adel Hasan, a full stack developer from Houston, Texas.
           </h2>
         
       
