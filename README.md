@@ -31,54 +31,31 @@ The idea of building and deploying the platform I use to express my thoughts onl
 
 ***
 ### Tech Stack
-- MongoDB/Mongoose: Database/ORM
-- Express: RESTful API
 - React: Front end components/markup
 - React Router v6
 - React-bootstrap: Styling
-- Deployment on Heroku (backend)
 - Deployment on GH pages(~) (frontend)
-
-***
-### Models
-```
-// Post
-{
-  title: String,
-  date: Date
-  imageLink: String,
-  excerpt: String,
-  categories: [String],
-  postBody: String
-}
-```
-
 
 ***
 ### Site Map
 - Navigation bar (fixed, sticky)
   - Routes For:
-    - Home (Logo)
-    - Categories
-      - Software Development
-      - Personal
+    - Home
+    - Articles
 - Home Page
-  - Featured Articles
-  - Sidebar with about the author
-- About page
-  - Contact Info
-    - Feedback on blog
-    - Github
-    - LinkedIn
-    - Email
-  - Projects
-  - Resume (Embed and Download)
-- Category Page
-  - List all posts in that category (pagination?)
-    - Link to full post view
+  - Intro/Hero Section
+  - Description of subject matter
+- Articles Page
+
 - Footer
   - FA Links
     - Github
     - LinkedIn
-    - Email
   - Signature
+
+## Post MVP
+As I continue to work on this project, there are some key features that I want to focus on:
+- Implementing a backend using GraphQL, and GraphCMS for content creation/updates/deletion
+- Refactoring the blog to render via a static site generator like NextJS
+- Deployment on a custom domain name
+- Implementation of SEO 
