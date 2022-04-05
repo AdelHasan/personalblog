@@ -8,6 +8,8 @@ import Sidebar from "./components/Sidebar";
 import Preview from "./components/Preview";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import Articles from "./components/Articles";
+
 function App() {
   return (
     <div className="App">
@@ -19,7 +21,8 @@ function App() {
         {/* <Hero/> */}
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/apost" element={<Post />} />
+            <Route path="/articles" element={<Articles />} />
+            <Route path="/articles/apost" element={<Post />} />
           </Routes>
         </Container>
 

@@ -1,13 +1,16 @@
 // *------ I M P O R T S ------*
 import { Card, Button } from "react-bootstrap";
-import {Link} from 'react-router-dom'
-const Preview = () => {
+import { Link } from "react-router-dom";
+const Preview = ({post}) => {
   return (
     <Card
       style={{ width: "auto" }}
       className="postPreview text-center d-flex justify-content-center"
+      id="featured"
     >
-      <Card.Header>Post Title</Card.Header>
+      <Card.Header>
+        <h2>Post Title</h2>
+      </Card.Header>
       <Card.Img variant="top" src="https://picsum.photos/900/450" />
       <Card.Body>
         <Card.Title>Subtitle</Card.Title>
@@ -21,7 +24,7 @@ const Preview = () => {
           note! I hear the jury's still out on science.
         </Card.Text>
 
-        <Button variant="outline-dark">Read</Button>
+       <Link to="apost"><Button variant="outline-dark">Read</Button></Link> 
       </Card.Body>
     </Card>
   );

@@ -1,43 +1,47 @@
-import { Col, Row, Card } from "react-bootstrap";
-import Preview from "./Preview";
-import Sidebar from "./Sidebar";
+import { Col, Row, Card, Image } from "react-bootstrap";
 
 const Home = () => {
   return (
-    <Row>
-      
+    <div>
+      <hr></hr>
+      <Row>
         
-          <h2 id="quote">
-            Welcome to my blog! I am Adel Hasan, a full stack developer from Houston, Texas.
-          </h2>
-        
-      
-      <Col lg={6}>
-        <Preview />
-      </Col>
-      <Col lg={6}>
-        <Preview />
-      </Col>
-      <Col lg={6}>
-        <Preview />
-      </Col>
-      <Col lg={6}>
-        <Preview />
-      </Col>
-      <Col lg={6}>
-        <Preview />
-      </Col>
-      <Col lg={6}>
-        <Preview />
-      </Col>
-      <Col lg={6}>
-        <Preview />
-      </Col>
+          <Col lg={6}>
+            <Image src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80" fluid="true" rounded="true"></Image>
+          </Col>
+          <Col lg={6}>
+          <h2>Welcome to my personal blog!</h2>
+            <p>
+              In 2021 I decided to change my life for the better by learning to code. What started with self-study led to to where I am now, a graduate of General Assembly's software engineering immersive program, ready to start my career as professional software developer. This blog is where I will document my process of learning and my journey of becoming and growing as a professional software developer.
+            </p>
 
-      {/* <Col lg={3}>
-        <Sidebar />
-      </Col> */}
-    </Row>
+            <p>
+              My experience with both self paced learning and the rigourous curriculum of General Assembly has taught me a lot about full-stack development with Javascript and Python, with associated frameworks. But more than anything, this process has taught me a lot about learning in the context of software developent. I understand how integral the continuous process of learning is to this profession. 
+            </p>
+
+            <p>
+              I've found one that writing about concepts I learn helps me to understand them more thoroughly. It gives me a clearer picture of my own knowledge and any gaps that exist. And that is what I hope to do here. 
+            </p>
+
+            
+
+            
+          
+            
+      
+          </Col>
+        
+      </Row>
+      <hr></hr>
+      <Row>
+        <h2>My Journey So Far</h2>
+        <p>
+
+        </p>
+      </Row>
+    
+      <hr></hr>
+    </div>
   );
 };
 

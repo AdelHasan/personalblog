@@ -6,13 +6,13 @@ const Navigation = () => {
     <>
       <Navbar sticky="top" bg="dark" variant="dark" id="navbar">
         <Container>
-          <Navbar.Brand>Planet Express</Navbar.Brand>
+          <Navbar.Brand>Adel Hasan</Navbar.Brand>
           <Nav className="me-auto">
             <Link to="/" className="head-link">
               <Nav.Link  href="/" >Home</Nav.Link>
             </Link>
-            <Link to="/archive" className="head-link">
-              <Nav.Link href="/archive">Articles</Nav.Link>
+            <Link to="/articles" className="head-link">
+              <Nav.Link href="/articles">Writing</Nav.Link>
             </Link>
             {/* <Link to="/about" className="head-link">
               <Nav.Link href="/contact">About</Nav.Link>
