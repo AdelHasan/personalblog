@@ -1,6 +1,8 @@
 //  I M P O R T S
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+
+// *------ N A V ------*
 const Navigation = () => {
   return (
     <>

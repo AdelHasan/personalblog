@@ -1,5 +1,7 @@
 // *------ I M P O R T S ------*
 import { Col, Row, Image } from "react-bootstrap";
+
+// *------ P O S T ------*
 const Post = () => {
   return (
     <Row>

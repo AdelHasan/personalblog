@@ -1,5 +1,7 @@
+// *------ I M P O R T S ------*
 import { Col, Row, Card, Image } from "react-bootstrap";
 
+// *------ H O M E ------*
 const Home = () => {
   return (
     <div>

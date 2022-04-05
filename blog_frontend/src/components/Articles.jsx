@@ -1,7 +1,8 @@
+// *------ I M P O R T S ------*
 import { Col, Row, Card } from "react-bootstrap";
 import Preview from "./Preview";
 
-
+// *------ A R T I C L E S ------*
 const Articles = () => {
   return (
     <Row>

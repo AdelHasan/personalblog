@@ -2,6 +2,8 @@
 import { getByTitle } from "@testing-library/react";
 import { Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+
+// *------ P R E V I E W ------*
 const Preview = ({title, imgLink, subtitle, excerpt, link }) => {
   return (
     <Card
