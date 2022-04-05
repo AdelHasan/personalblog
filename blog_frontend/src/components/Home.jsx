@@ -16,10 +16,10 @@ const Home = () => {
         <Col lg={6}>
           <h2>Welcome to my personal blog!</h2>
           <p>
-            In 2021 I decided to change my professional outlook for the better by learning to
-            code. What started with self-study led me to where I am now, a
-            graduate of General Assembly's software engineering immersive
-            program, ready to start my career as professional software
+            In 2021 I decided to change my professional outlook for the better
+            by learning to code. What started with self-study led me to where I
+            am now, a graduate of General Assembly's software engineering
+            immersive program, ready to start my career as professional software
             developer. This blog is where I will document my process of learning
             and my journey of becoming and growing as a professional software
             developer.
@@ -44,12 +44,24 @@ const Home = () => {
       </Row>
       <hr></hr>
       <Row>
-        <Col lg={3}></Col>
-        <Col lg={6}>
+        <Col lg={2}></Col>
+        <Col lg={8}>
           <h2>My Interests</h2>
-          <p></p>
+          <p>
+            Subjects that I find compelling, and hope to explore more through the process of research and writing:
+          </p>
+          <ul>
+            <li>Software Development</li>
+            <li>Technology News</li>
+            <li>Psychology</li>
+            <li>History</li>
+            <li>Economics</li>
+          </ul>
+          <p>
+            I hope you find my exploration of these topics as engaging as I find the topics themselves. If you have any feedback or want to connect further, get in touch via the links below!
+          </p>
         </Col>
-        <Col lg={3}></Col>
+        <Col lg={2}></Col>
       </Row>
 
       <hr></hr>

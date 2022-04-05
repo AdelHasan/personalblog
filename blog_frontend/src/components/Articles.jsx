@@ -17,10 +17,10 @@ const Articles = () => {
 
       <Col lg={6}>
         <Preview 
-          title="Learning Python after JS"
-          imgLink="https://upload.wikimedia.org/wikipedia/commons/2/21/Python_image.jpg"
+          title="Learning Python after JavaScript"
+          imgLink="https://www.thewindowsclub.com/wp-content/uploads/2020/11/python-logo.png"
           subtitle="My burgeoning, enlightening experience of learning Python as my second programming language"
-          excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          excerpt="After spending most of my learning of full stack development with JavaScript and associated frameworks, pivoting to learning Python and Django was quite a mental shift. In this article I compare and contrast the two languages and their uses. And explain why I have enjoyed learning Python so much."
           link="/portfolio-retrospective" />
       </Col>
       <Col lg={6}>
@@ -28,17 +28,17 @@ const Articles = () => {
           title="Project Retrospective: React app"
           imgLink="https://pbs.twimg.com/card_img/1508756632582328324/5mefv2pH?format=png&name=medium"
           subtitle="Learning React through (so much) trial and error"
-          excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          link="/portfolio-retrospective" />
+          excerpt="One of the biggest challenges I faced in my cohort at General Assembly was learning React. After building a solid foundational understanding of HTML, CSS and JavaScript to construct web pages, the move to React felt unintuitive and fraught with unnecessary complexity. But after spending a week building and debugging a React application for my second project, I came to appreciate the many benefits of what React has to offer."
+          link="/" />
       </Col>
-      <Col lg={6}>
+      {/* <Col lg={6}>
         <Preview 
           title="Learning a programming language vs. a foreign language"
-          imgLink="https://www.iknowmyabc.com/wp-content/uploads/2020/08/Learn-Urdu-ABC.jpg"
+          imgLink=""
           subtitle="My experience in both domains, differences and parallels"
           excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           link="/portfolio-retrospective" />
-      </Col>
+      </Col> */}
     </Row>
   );
 };

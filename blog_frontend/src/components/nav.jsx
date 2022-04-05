@@ -14,9 +14,6 @@ const Navigation = () => {
             <Link to="/articles" className="head-link">
               <Nav.Link href="/articles">Writing</Nav.Link>
             </Link>
-            {/* <Link to="/about" className="head-link">
-              <Nav.Link href="/contact">About</Nav.Link>
-            </Link> */}
           </Nav>
         </Container>
       </Navbar>

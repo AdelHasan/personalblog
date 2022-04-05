@@ -10,7 +10,7 @@ const Preview = ({title, imgLink, subtitle, excerpt, link }) => {
       id="featured"
     >
       <Card.Header>
-        <h2>{title}</h2>
+        {title}
       </Card.Header>
       <Card.Img variant="top" src={imgLink} />
       <Card.Body>

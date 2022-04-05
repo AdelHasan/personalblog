@@ -9,7 +9,7 @@ const Post = () => {
         <div className="text-center">
           <h2>General Assembly, a retrospective</h2>
           <Image fluid="true" rounded="true" src="https://images.unsplash.com/photo-1596457596404-350378e433c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" />
-          <h4>The joys and struggles of a remote coding bootcamp</h4>
+          <h4>The joys and challenges of a remote coding bootcamp</h4>
         </div>
         <div className="postBody">
         <p className="postBody">
