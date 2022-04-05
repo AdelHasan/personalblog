@@ -2,13 +2,14 @@
 import { Col, Row, Card } from "react-bootstrap";
 const Post = () => {
   return (
-    
     <Row>
+      <Col lg={1}>
+      </Col>
       <Col>
         <div className="text-center">
-          <h2>Title</h2>
+          <h2>General Assembly, a retrospective</h2>
           <img src="https://picsum.photos/600/450" />
-          <h4>Subheading or maybe an image caption here</h4>
+          <h4>The joys and struggles of a remote coding bootcamp</h4>
         </div>
 
         <p>
@@ -53,6 +54,8 @@ const Post = () => {
           provident hic ullam enim ad animi rem, sunt culpa temporibus facilis
           dolor eligendi accusantium officiis pariatur impedit tempore!
         </p>
+      </Col>
+      <Col lg={1}>
       </Col>
     </Row>
   );

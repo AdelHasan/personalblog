@@ -4,10 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Navigation from "./components/Nav";
 import Home from "./components/Home";
 import Post from "./components/Post";
-import Sidebar from "./components/Sidebar";
-import Preview from "./components/Preview";
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
 import Articles from "./components/Articles";
 
 function App() {
@@ -22,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/articles" element={<Articles />} />
-            <Route path="/articles/apost" element={<Post />} />
+            <Route path="/apost" element={<Post />} />
           </Routes>
         </Container>
 
