@@ -19,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/articles" element={<Articles />} />
-            <Route path="/apost" element={<Post />} />
+            <Route path="/ga-retrospective" element={<Post />} />
           </Routes>
         </Container>
 

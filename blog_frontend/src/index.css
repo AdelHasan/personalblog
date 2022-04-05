@@ -7,10 +7,7 @@
   -moz-osx-font-smoothing: grayscale;
 } */
 
-.code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=EB+Garamond&family=Playfair+Display&family=Quicksand&display=swap');
 
@@ -65,10 +62,16 @@ div.card-header {
   margin-bottom: 12px;
 }
 
-.excerpt {
+.excerpt, .postBody p {
   font-family: 'Playfair', 'sans-serif';
   text-align: start;
 }
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 
 .profileContainer {
   padding: 5%;
